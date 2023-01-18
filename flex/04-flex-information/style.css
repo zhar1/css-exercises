@@ -3,32 +3,35 @@ body {
 }
 
 img {
-  width: 100px;
+  width: 100px; 
   height: 100px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* put changes below */
 }
-.header {
+/*additions*/
+.header,.plants,.column {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .plants {
-  display: flex;
   margin: 32px;
-  justify-content: space-between;
+  gap: 52px;
 }
 
 .column {
-  display: flex;
   flex-flow: column wrap;
   width: 200px;
-  align-items: center;
-  justify-content: center;
+}
+
+ .text {
+  min-height: 56px;
+  text-align: center;
 }
 
 /* do not edit this footer */
