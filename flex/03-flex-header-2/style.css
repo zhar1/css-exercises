@@ -57,5 +57,8 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
   gap: 16px;
 }
