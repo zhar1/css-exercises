@@ -28,6 +28,7 @@ body {
 .left,.right {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 
