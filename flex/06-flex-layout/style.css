@@ -25,3 +25,18 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+/* add your solution below */
+body {
+  padding: 8px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
