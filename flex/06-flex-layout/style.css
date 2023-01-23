@@ -63,6 +63,7 @@ button {
   background-color: #eee;
 }
 .content {
+  flex: 1; /* corrected from solution */
   display: flex;
   flex-direction: column;
   justify-content: center;
