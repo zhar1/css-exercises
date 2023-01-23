@@ -26,3 +26,20 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* add your solution here */
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+}
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+}
+.card {
+  height: 40%;
+  width: 25%;
+}
