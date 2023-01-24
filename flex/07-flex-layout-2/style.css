@@ -31,8 +31,13 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.header {
+  font-weight: 900;
+}
 .content {
   display: flex;
+  flex: auto;
 }
 .card-container {
   display: flex;
@@ -43,3 +48,17 @@ body {
   height: 40%;
   width: 25%;
 }
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.sidebar {
+  display: flex;
+  flex: 1 0 300px;
+}
+
