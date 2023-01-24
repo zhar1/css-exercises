@@ -34,6 +34,10 @@ body {
 
 .header {
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 32px;
 }
 .content {
   display: flex;
@@ -43,18 +47,24 @@ body {
   display: flex;
   flex-flow: row wrap;
   gap: 16px;
+  margin: 32px;
 }
 .card {
-  height: 40%;
-  width: 25%;
+  flex-basis: 250px;
+  padding: 16px;
 }
 ul {
+  display: flex;
+  flex-direction: column;
   list-style: none;
+  padding-left: 8px;
+  gap: 8px;
 }
 
 a {
   text-decoration: none;
   color: #eee;
+  font-size: 24px;
 }
 
 .sidebar {
@@ -62,3 +72,8 @@ a {
   flex: 1 0 300px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
